@@ -1,4 +1,4 @@
-name: Provision Azure Services - AKS, Azure OpenAI, Azure Monitor
+name: Run prompt evaluations
 on: push
 jobs:
   test:

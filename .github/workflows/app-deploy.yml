@@ -1,4 +1,4 @@
-name: Provision Azure Services - AKS, Azure OpenAI, Azure Monitor
+name: Deploy agent, Qdrant to AKS Cluster
 on: push
 jobs:
   test:
