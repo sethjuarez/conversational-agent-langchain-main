@@ -1,0 +1,9 @@
+name: Provision Azure Services - AKS, Azure OpenAI, Azure Monitor
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build the stack
+        run: docker-compose up -d agent

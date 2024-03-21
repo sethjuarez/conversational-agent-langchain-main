@@ -1,4 +1,4 @@
-name: docker-compose-actions-workflow
+name: Provision Azure Services - AKS, Azure OpenAI, Azure Monitor
 on: push
 jobs:
   test:
