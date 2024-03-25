@@ -5,7 +5,7 @@ from typing import List
 from aleph_alpha_client import Client
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()  
 
 aleph_alpha_token = os.getenv("ALEPH_ALPHA_API_KEY")
 
